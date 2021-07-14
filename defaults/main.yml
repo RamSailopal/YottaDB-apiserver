@@ -9,4 +9,3 @@ yotta_env:
   ydb_dir: '/root/.yottadb/r1.30_x86_64'
   ydb_rel: 'r1.30_x86_64'
   ydb_gbl: '/root/.yottadb/r1.30_x86_64/g/yottadb'
-
