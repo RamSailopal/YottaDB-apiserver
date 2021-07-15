@@ -1,5 +1,5 @@
 ---
-# tasks file for YottaDB-dashboard
+# tasks file for YottaDB-apiserver
 - name: Make sure that git is installed
   zypper:
    name: "{{ item }}"
@@ -60,7 +60,7 @@
     dest: '/usr/bin/python'
     state: link
   when: python3.matched >= 1
-- name: "Install the Python prometheus module"
+- name: "Install the Python xmltodict module"
   pip:
     name: "xmltodict"
 - name: Run the process to pull api details
