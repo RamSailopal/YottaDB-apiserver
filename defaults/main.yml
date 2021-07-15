@@ -3,7 +3,7 @@
 instdir: /usr/local/YottaDB-dashboard
 yotta_env:
   YOTTA_API_PORT: '8002'
-  YOTTA_API_SERVER: '0.0.0.0'
+  YOTTA_API_IP: '0.0.0.0'
   yotta_dir: '/root/.yottadb/r1.30_x86_64'
   yotta_instdir: '/usr/local/Yotta-dashboard'
   ydb_dir: '/root/.yottadb/r1.30_x86_64'
